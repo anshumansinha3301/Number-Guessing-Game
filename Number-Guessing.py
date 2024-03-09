@@ -8,7 +8,6 @@ def number_guessing_game():
 
     while True:
         try:
-            # Get user input for a guess
             user_guess = int(input("Enter your guess: "))
             attempts += 1
 
